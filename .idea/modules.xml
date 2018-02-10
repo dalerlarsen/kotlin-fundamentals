@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kotlin-fundamentals.iml" filepath="$PROJECT_DIR$/kotlin-fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-2-intro/mod-2-intro.iml" filepath="$PROJECT_DIR$/mod-2-intro/mod-2-intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-3-no-classes/mod-3-no-classes.iml" filepath="$PROJECT_DIR$/mod-3-no-classes/mod-3-no-classes.iml" />
+    </modules>
+  </component>
+</project>
