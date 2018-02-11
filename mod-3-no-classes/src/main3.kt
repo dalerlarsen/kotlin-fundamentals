@@ -1,6 +1,25 @@
+import java.io.FileReader
+import java.io.IOException
 import java.util.*
 
 fun main(args: Array<String>) {
+    var reader: FileReader? = null
+    try {
+        reader = FileReader("filename")
+    } catch (e: Exception) {
+        println("In catch $e")
+    }
+
+    try {
+        reader?.read()
+    } catch (e: Exception) {
+        println("In catch $e")
+    } finally {
+
+    }
+}
+
+fun ranges() {
 //    do {
 //
 //    } while (true)
