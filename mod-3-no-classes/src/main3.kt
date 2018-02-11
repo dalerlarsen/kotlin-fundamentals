@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 //    val q:Question? = null
 //    q = Question()
 
-    q.Answer = "42"
+    q.Answer = "Four"
 //    q.Question = "Anything"
 
     q.display()
@@ -27,6 +27,14 @@ fun main(args: Array<String>) {
     println(message)
 
     q.printResults()
+
+    val number: Int? = try {
+        Integer.parseInt(q.Answer)
+    } catch (e: NumberFormatException) {
+        null
+    }
+
+    println("Number is $number")
 }
 
 class Question {
@@ -40,8 +48,8 @@ class Question {
 
     fun printResults() {
         when (Answer) {
-            CorrectAnswer -> print( "You were correct")
-            else -> print("Try again")
+            CorrectAnswer -> println( "You were correct")
+            else -> println("Try again")
         }
     }
 
