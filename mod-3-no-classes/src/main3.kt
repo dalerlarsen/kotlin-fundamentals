@@ -1,40 +1,49 @@
+import java.util.*
+
 fun main(args: Array<String>) {
-    println("Hello World")
-    val q:Question = Question()
-//    val q:Question? = null
-//    q = Question()
-
-    q.Answer = "Four"
-//    q.Question = "Anything"
-
-    q.display()
-
-    println("The answer to the question ${q.Question} is ${q.Answer}")
-
-//    var message: String
-//    if (q.Answer == q.CorrectAnswer) {
-//        message = "You were correct"
-//    } else {
-//        message = "Try again"
+//    do {
+//
+//    } while (true)
+//
+//
+//    while (true) {
+//
 //    }
 
-    val message= if (q.Answer == q.CorrectAnswer) {
-        "You were correct"
-    } else {
-        "Try again"
+
+    // ranges
+    var myValues = 1..10
+    // inclusive
+    for (i in 1..10 step 2) {
+        println(i)
+    }
+    println()
+
+    for (i in 1 until 10) {
+        println(i)
     }
 
-    println(message)
-
-    q.printResults()
-
-    val number: Int? = try {
-        Integer.parseInt(q.Answer)
-    } catch (e: NumberFormatException) {
-        null
+    var numbers = listOf(1, 2, 3, 4, 5)
+    for (i in numbers) {
+        println(i)
     }
 
-    println("Number is $number")
+    var ages = TreeMap<String, Int>()
+    ages["Kevin"] = 54
+    ages["Sam"] = 28
+    ages["Joe"] = 15
+    ages["Mary"] = 76
+
+    for ((name, age) in ages) {
+        println("$name is $age")
+    }
+
+    for ((index, element) in numbers.withIndex()) {
+        println("$element at $index")
+    }
+
+    var range = 'a' .. 'z'
+
 }
 
 class Question {
