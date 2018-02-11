@@ -1,14 +1,15 @@
 fun main(args: Array<String>) {
     println("Hello World")
-    val q = Question()
+//    val q:Question? = Question()
+    val q:Question? = null
 //    q = Question()
 
-    q.Answer = "42"
+    q?.Answer = "42"
 //    q.Question = "Anything"
 
-    q.display()
+    q?.display()
 
-    println("The answer to the question ${q.Question} is ${q.Answer}")
+    println("The answer to the question ${q?.Question} is ${q?.Answer}")
 
 //    var message: String
 //    if (q.Answer == q.CorrectAnswer) {
@@ -17,7 +18,7 @@ fun main(args: Array<String>) {
 //        message = "Try again"
 //    }
 
-    val message= if (q.Answer == q.CorrectAnswer) {
+    val message= if (q?.Answer == q?.CorrectAnswer) {
         "You were correct"
     } else {
         "Try again"
@@ -27,7 +28,7 @@ fun main(args: Array<String>) {
 }
 
 class Question {
-    var Answer: String = ""
+    var Answer: String? = null
     val CorrectAnswer = "42"
     val Question: String = "What is the answer to life"
 
