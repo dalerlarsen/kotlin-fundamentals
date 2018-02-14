@@ -1,3 +1,4 @@
+@file:JvmName("DisplayFunctions")
 package rsk
 
 fun main(args: Array<String>) {
