@@ -2,7 +2,9 @@
 package rsk
 
 fun main(args: Array<String>) {
-    log("Hello World", 3)
+    log(message = "Hello World", logLevel = 3)
+    log(logLevel = 3, message = "Hello World")
+    log(message = "Hello World")
 }
 
 @JvmOverloads
