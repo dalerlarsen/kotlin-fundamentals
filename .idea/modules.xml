@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/mod-3-no-classes/mod-3-no-classes.iml" filepath="$PROJECT_DIR$/mod-3-no-classes/mod-3-no-classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-4-functions/mod-4-functions.iml" filepath="$PROJECT_DIR$/mod-4-functions/mod-4-functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-5-types/mod-5-types.iml" filepath="$PROJECT_DIR$/mod-5-types/mod-5-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-6-objects/mod-6-objects.iml" filepath="$PROJECT_DIR$/mod-6-objects/mod-6-objects.iml" />
     </modules>
   </component>
 </project>
