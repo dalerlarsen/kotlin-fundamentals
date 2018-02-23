@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/mod-4-functions/mod-4-functions.iml" filepath="$PROJECT_DIR$/mod-4-functions/mod-4-functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-5-types/mod-5-types.iml" filepath="$PROJECT_DIR$/mod-5-types/mod-5-types.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-6-objects/mod-6-objects.iml" filepath="$PROJECT_DIR$/mod-6-objects/mod-6-objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-7-high-level-functions/mod-7-high-level-functions.iml" filepath="$PROJECT_DIR$/mod-7-high-level-functions/mod-7-high-level-functions.iml" />
     </modules>
   </component>
 </project>
