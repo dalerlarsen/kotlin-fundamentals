@@ -21,6 +21,13 @@ fun main(args: Array<String>) {
     // even more reduced
     program.fibonacci(8, ::println)
 
+    var total = 0
+
+    program.fibonacci(8) {it -> total += it}
+
+    println("total is $total")
+
+
 
 }
 
