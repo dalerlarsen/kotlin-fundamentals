@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/mod-6-objects/mod-6-objects.iml" filepath="$PROJECT_DIR$/mod-6-objects/mod-6-objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-7-high-level-functions/mod-7-high-level-functions.iml" filepath="$PROJECT_DIR$/mod-7-high-level-functions/mod-7-high-level-functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-8-filter-and-sort/mod-8-filter-and-sort.iml" filepath="$PROJECT_DIR$/mod-8-filter-and-sort/mod-8-filter-and-sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-9-infinite-collections/mod-9-infinite-collections.iml" filepath="$PROJECT_DIR$/mod-9-infinite-collections/mod-9-infinite-collections.iml" />
     </modules>
   </component>
 </project>
