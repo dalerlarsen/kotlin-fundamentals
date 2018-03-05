@@ -56,6 +56,3 @@ fun main(args: Array<String>) {
 
 }
 
-class Meeting(val id: Int, val title: String) {
-
-}
