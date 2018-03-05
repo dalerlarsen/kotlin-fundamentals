@@ -28,10 +28,32 @@ fun main(args: Array<String>) {
     val titles: List<String> = meetings
             .filter { it -> it.title.startsWith("C")}
             .map { m -> m.title }
-    
+
     for (title: String in titles) {
         println(title)
     }
+
+    // Predicates
+
+    val greaterThanThree = {v:Int -> v > 3}
+
+//    var largeInts = ints.all { it > 3 }
+    var largeInts = ints.all(greaterThanThree)
+    println(largeInts)
+
+//    largeInts = ints.any { it > 3 }
+    largeInts = ints.any(greaterThanThree)
+    println(largeInts)
+
+//    var numberOfLargeInts = ints.count { it > 3 }
+    var numberOfLargeInts = ints.count(greaterThanThree)
+    println(numberOfLargeInts)
+
+    var found = ints.findLast(greaterThanThree)
+    println(found)
+
+
+
 }
 
 class Meeting(val id: Int, val title: String) {
