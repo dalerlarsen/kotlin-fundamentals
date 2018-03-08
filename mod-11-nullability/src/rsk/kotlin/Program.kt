@@ -33,6 +33,7 @@ fun closeMeeting(m: Meeting?): Boolean? {
 
 class Meeting {
     val canClose: Boolean = false
+    lateinit var address: Address
 
     fun close(): Boolean {
         return true
@@ -44,8 +45,17 @@ class Meeting {
         val saveable = o as? ISaveable
         saveable?.save()
     }
+
+    // When using lateinit above, we HAVE TO initialize it ourselves at some point!!
+    fun init(addr: Address) {
+        address = addr
+    }
 }
 
 interface ISaveable {
     fun save()
+}
+
+class Address {
+
 }
