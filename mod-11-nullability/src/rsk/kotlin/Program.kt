@@ -12,13 +12,23 @@ fun main(args: Array<String>) {
     closeMeeting(newMeeting)
     closeMeeting(m)
 
+    closeMeetingNonNull(newMeeting)
+    m?.let{
+        closeMeetingNonNull(m)
+    }
+
+}
+
+fun closeMeetingNonNull(m: Meeting): Boolean? {
+    return if (m.canClose == true) m.close()
+    else false
 }
 
 fun closeMeeting(m: Meeting?): Boolean? {
-//    return if (m?.canClose == true) m?.close()
-//    else false
-    return if (m!!.canClose) m.close()
+    return if (m?.canClose == true) m?.close()
     else false
+//    return if (m!!.canClose) m.close()
+//    else false
 }
 
 class Meeting {
