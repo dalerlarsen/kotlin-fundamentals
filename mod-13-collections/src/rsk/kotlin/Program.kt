@@ -1,5 +1,8 @@
 package rsk.kotlin
 
+import rsk.java.Meeting
+import rsk.java.Organizer
+
 fun main(args: Array<String>) {
 //    val people = listOf<Person?>()
 //    val people = listOf(Person(40), null
@@ -25,4 +28,8 @@ fun main(args: Array<String>) {
 
 }
 
-class Person(val age: Int)
+class Person(val age: Int) : Organizer {
+    override fun processMeetings(meetings: MutableList<Meeting>?) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+}
