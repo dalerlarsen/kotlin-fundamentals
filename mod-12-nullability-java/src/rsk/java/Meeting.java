@@ -14,4 +14,8 @@ public class Meeting {
     public String meetingTitle() {
         return title;
     }
+
+    public String titleCanBeNull() {
+        return title;
+    }
 }
