@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/kotlin-fundamentals.iml" filepath="$PROJECT_DIR$/kotlin-fundamentals.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-10-java-functions/mod-10-java-functions.iml" filepath="$PROJECT_DIR$/mod-10-java-functions/mod-10-java-functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-11-nullability/mod-11-nullability.iml" filepath="$PROJECT_DIR$/mod-11-nullability/mod-11-nullability.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod-12-nullability-java/mod-12-nullability-java.iml" filepath="$PROJECT_DIR$/mod-12-nullability-java/mod-12-nullability-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-2-intro/mod-2-intro.iml" filepath="$PROJECT_DIR$/mod-2-intro/mod-2-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-3-no-classes/mod-3-no-classes.iml" filepath="$PROJECT_DIR$/mod-3-no-classes/mod-3-no-classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod-4-functions/mod-4-functions.iml" filepath="$PROJECT_DIR$/mod-4-functions/mod-4-functions.iml" />
