@@ -1,5 +1,6 @@
 package rsk.kotlin
 
+import rsk.java.Address
 import rsk.java.Meeting
 
 fun main(args: Array<String>) {
@@ -15,6 +16,17 @@ fun main(args: Array<String>) {
     val title:String = m.titleCanBeNull() ?: "nobody"
 
     println(title)
-
-
 }
+
+class HomeAddress : Address {
+    override fun getFirstAddress(): String {
+        return "";
+    }
+}
+
+class WorkAddress : Address {
+    override fun getFirstAddress(): String? {
+        return "";
+    }
+}
+
