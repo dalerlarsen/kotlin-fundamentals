@@ -39,6 +39,9 @@ inline fun<reified T: Meeting> buildMeeting(noinline action: (T) -> Unit) : T {
 
 
 open class Meeting {
+    fun attend() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
 }
 
